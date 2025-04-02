@@ -1,12 +1,11 @@
 {
   "name": "my-portfolio",
-  "homepage": "https://sadiakhan004.github.io/my-portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/my-portfolio/",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
