@@ -13,13 +13,19 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 20  # Use latest LTS version
+          node-version: 20  # Use latest stable version
 
       - name: Install Dependencies
         run: npm install
 
       - name: Build Project
         run: npm run build
+
+      - name: Upload Build Artifacts
+        uses: actions/upload-artifact@v4  # Explicitly use latest version
+        with:
+          name: vite-build
+          path: dist
 
       - name: Deploy to GitHub Pages
         env:
