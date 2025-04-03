@@ -4,15 +4,16 @@ export function Skills() {
   return (
     <>
       <div>
-        <div className="flex items-center justify-center sm:ml-0 mt-12 lg:ml-40 mt-20 lg:w-3/4">
+        <div className="flex items-center justify-center sm:ml-0 mt-8 lg:ml-40 mt-20 lg:w-4/5">
           <p className="font-righteous font-thin text-center text-[#F4F4F4] opacity-0 animate-fadeIn lg:text-xl sm:text-xs">
-            I specialize in the MERN stack, with a focus on seamless user
+            I specialize in the <span className="text-[#05C5D7]">MERN stack</span>, with a focus on seamless user
             experiences and efficient backend solutions. I bring ideas to life by
-            leveraging the power of modern web technologies.
+            leveraging the power of modern web technologies, along with this I specialize in <span className="text-[#05C5D7]">AI and Machine Learning</span>, 
+            focusing on developing Intelligent Models and extracting insights from complex datasets.
           </p>
         </div>
 
-        <div className="flex items-center justify-center mt-10 lg:ml-40 sm: ml-14">
+        <div className="flex items-center justify-center mt-10 lg:ml-60 sm: ml-14">
           <div className="p-0 w-full">
             {/* First row of skills */}
             <ul className="flex font-poppins gap-4 font-semibold animate-fadeIn lg:flex-row text-xl lg:ml-20 sm: flex-col ml-4 lg:gap-1">
