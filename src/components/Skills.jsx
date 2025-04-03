@@ -19,7 +19,7 @@ export function Skills() {
               <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 HTML
                 <img
-                  src={"/assets/html.svg"}
+                  src={"assets/html.svg"}
                   alt=""
                   className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />
@@ -27,7 +27,7 @@ export function Skills() {
               <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 CSS
                 <img
-                  src={"/assets/css3.svg"}
+                  src={"assets/css3.svg"}
                   alt=""
                    className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />
@@ -35,7 +35,7 @@ export function Skills() {
               <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 JavaScript
                 <img
-                  src={"/assets/js.svg"}
+                  src={"assets/js.svg"}
                   alt=""
                    className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />
@@ -43,7 +43,7 @@ export function Skills() {
               <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 React.Js
                 <img
-                  src={"/assets/react.svg"}
+                  src={"assets/react.svg"}
                   alt=""
                    className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />
@@ -55,7 +55,7 @@ export function Skills() {
             <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 Node.Js
                 <img
-                  src={"/assets/nodejs.svg"}
+                  src={"assets/nodejs.svg"}
                   alt=""
                    className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />
@@ -63,7 +63,7 @@ export function Skills() {
               <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 MongoDB
                 <img
-                  src={"/assets/mongodb.svg"}
+                  src={"assets/mongodb.svg"}
                   alt=""
                    className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />
@@ -71,7 +71,7 @@ export function Skills() {
               <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 TailwindCSS
                 <img
-                  src={"/assets/tailwind.svg"}
+                  src={"assets/tailwind.svg"}
                   alt=""
                    className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />
@@ -79,7 +79,7 @@ export function Skills() {
               <li className="bg-[#000C1C] rounded-md text-center text-[#05C5D7]  w-40 h-40 transition-transform transform hover:translate-y-[-5px] hover:bg-[#F4F4F4] z-index: 10 lg:shadow-custom1 sm: shadow-custom3 lg:w-40 h-40 sm: w-52 h-50">
                 Git
                 <img
-                  src={"/assets/git.svg"}
+                  src={"assets/git.svg"}
                   alt=""
                   className="ml-20 mt-8 lg: w-14 h-14 lg:ml-14"
                 />

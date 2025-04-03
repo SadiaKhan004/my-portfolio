@@ -18,7 +18,7 @@ export function About({ onClose }) {
 
                 {/* Close Button */}
                 <img
-                    src="/assets/close.png"
+                    src="assets/close.png"
                     alt="Close"
                     className="w-6 h-6 cursor-pointer absolute top-4 right-4"
                     onClick={closeAbout}
@@ -27,7 +27,7 @@ export function About({ onClose }) {
                 {/* Profile Section */}
                 <div className="flex flex-col items-center">
                     <img
-                        src="/assets/profilepic.png"
+                        src="assets/profilepic.png"
                         alt="Profile"
                         className="w-20 h-20 rounded-full"
                     />

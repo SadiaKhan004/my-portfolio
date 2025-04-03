@@ -21,7 +21,7 @@ export function Home() {
 
             <div className="bg-[#000000] w-16 h-28 mx-auto flex justify-center pt-14 mt-10 rounded-full bg-gradient-to-r from-[#05C5D7] to-[#036871] sm: mt-8 w-14 h-24 animate-fadeIn transition-transform transform hover:translate-y-[-5px] ">
                 <a onClick={showAboutSection} href="#">
-                    <img src={"/assets/down-arrow.png"} alt="next-section" className="w-12 h-12 sm: w-10 h-10" />
+                    <img src={"assets/down-arrow.png"} alt="next-section" className="w-12 h-12 sm: w-10 h-10" />
                 </a>
             </div>
 

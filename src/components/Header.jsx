@@ -37,7 +37,7 @@ export function Header({ setActivePage }) {
             onClick={() => setMenuOpen(!isMenuOpen)}
             className="md:hidden block flex -ml-72"
           >
-            <img className="h-6 w-6" src="/assets/hamburger.png" alt="menu" />
+            <img className="h-6 w-6" src="assets/hamburger.png" alt="menu" />
           </button>
         </div>
 
