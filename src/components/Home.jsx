@@ -19,6 +19,10 @@ export function Home() {
                 <p>Mern Stack Developer</p>
             </div>
 
+            <div className="text-3xl font-righteous animate-reveal font-medium text-[#F4F4F4] bg-clip-text mx-auto flex justify-center mt-12 sm: text-2xl mt-6">
+                <p>AI & ML Developer</p>
+            </div>
+
             <div className="bg-[#000000] w-16 h-28 mx-auto flex justify-center pt-14 mt-10 rounded-full bg-gradient-to-r from-[#05C5D7] to-[#036871] sm: mt-8 w-14 h-24 animate-fadeIn transition-transform transform hover:translate-y-[-5px] ">
                 <a onClick={showAboutSection} href="#">
                     <img src={"assets/down-arrow.png"} alt="next-section" className="w-12 h-12 sm: w-10 h-10" />
