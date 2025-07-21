@@ -4,6 +4,7 @@ import { Home } from "../components/Home";
 import { Skills } from "../components/Skills";
 import { About } from "../components/About";
 import { Projects } from "../components/Projects";
+import { BloodDonation } from "../components/BloodDonation";
 
 export function SinglePage() {
   const [activePage, setActivePage] = useState("home");
@@ -18,6 +19,7 @@ export function SinglePage() {
         return <div className="mx-auto mt-96 mb-2  md:p-8 sm: mt-84 pt-10"><About/></div>
       case "projects":
       return <Projects />;
+      // return <BloodDonation/>;
       // case "resume":
       //   return <h1 className="text-4xl">Resume Section</h1>;
       // case "contact":

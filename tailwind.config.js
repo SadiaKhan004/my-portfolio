@@ -23,6 +23,7 @@ export default {
         fadeIn: 'fadeIn 5s ease-in forwards',
         slideUp: 'slideUp 0.5s ease-in',
         reveal: 'reveal 3s ease-in forwards',
+        
       },
       keyframes: {
         fadeIn: {
@@ -46,7 +47,8 @@ export default {
             transform: 'translateX(0)',
           },
         },
-      },  
+      },
+        
      
     },
   },
